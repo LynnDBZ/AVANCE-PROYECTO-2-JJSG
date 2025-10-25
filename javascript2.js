@@ -1,0 +1,1 @@
+console.log("Usuario 2 - Archivo JavaScript2 creado");
