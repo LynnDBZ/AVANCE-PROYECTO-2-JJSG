@@ -13,3 +13,10 @@ jobs:
       nombres: "Josselyn Dahanna"
       apellidos: "Barrientos Zavaleta"
       edad: "20"
+
+    steps:
+      - name: presentación
+        run: |
+          echo "Nombres: $nombres"
+          echo "Apellidos: $apellidos"
+          echo "Edad: $edad"
