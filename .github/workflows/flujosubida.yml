@@ -23,3 +23,8 @@ jobs:
 
       - name: datos generales
         run: echo "Carrera de Ingeniería de Sistemas"
+        
+      - name: variables de entorno secretas
+        run: |
+          echo "user: ${{ secrets.user }}"
+          echo "password: ${{ secrets.password }}"
