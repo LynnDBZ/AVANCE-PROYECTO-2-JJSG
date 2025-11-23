@@ -1,0 +1,6 @@
+name: Integración y entrega continua
+
+on:
+  push:
+    branches:
+      - main
